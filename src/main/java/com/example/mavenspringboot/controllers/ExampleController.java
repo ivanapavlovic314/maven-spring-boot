@@ -11,8 +11,8 @@ public class ExampleController {
 
     @RequestMapping("/")
     public Map<String, Object> getIndex(){
-        Map<String, Object> returnval= new HashMap<>();
-        returnval.put("hello", "world");
-        return returnval;
+        Map<String, Object> returnVal= new HashMap<>();
+        returnVal.put("hello", "world");
+        return returnVal;
     }
 }
